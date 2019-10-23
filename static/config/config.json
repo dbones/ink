@@ -1,0 +1,8 @@
+{
+  "services": 
+  [
+    "http://redocly.github.io/redoc/openapi.yaml",
+    "https://api.apis.guru/v2/specs/zoom.us/2.0.0/swagger.yaml", 
+    "https://api.apis.guru/v2/specs/googleapis.com/calendar/v3/swagger.yaml"
+  ]
+}
