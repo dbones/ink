@@ -1,0 +1,14 @@
+<template>
+    <require from="../resources/elements/api-card"></require>
+    <require from="./api-catalog"></require>
+    <require from="./api-catalog.css"></require>
+
+    <h3>Available services:</h3>
+
+
+
+    <div class="row">
+        <api-card repeat.for="apiMeta of apiCatalogService.apiMetas" meta.bind="apiMeta" click.delegate="select(apiMeta)"></api-card>
+    </div>
+
+</template>

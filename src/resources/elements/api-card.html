@@ -1,0 +1,23 @@
+<template>
+    
+    <require from="./api-card.css"></require>
+    <require from="./api-card"></require>
+    
+    <div class="col-md-4">
+
+        <div class="skill-card">
+            <header class="skill-card__header"><img class="skill-card__icon"
+                    src="${meta.logo}" alt="service icon" />
+            </header>
+            <section class="skill-card__body">
+                <h2 class="skill-card__title">${meta.title}</h2>
+                <span class="skill-card__duration">${meta.version}</span>
+                <ul class="skill-card__knowledge">
+                    <li>${meta.description}</li>
+                </ul>
+            </section>
+        </div>
+
+    </div>
+
+</template>
