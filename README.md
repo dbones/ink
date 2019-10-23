@@ -1,5 +1,19 @@
 # `ink`
 
+with multiple services, each of them exposing their own OpenApi 2/3 docs, we need a single place to bring them together.
+
+consider this a catalog of the services you want to expose.
+
+
+[![Ink](https://img.youtube.com/vi/whe4WfXx-ZI/0.jpg)](https://www.youtube.com/watch?v=whe4WfXx-ZI)
+
+
+note: this is a very simple solution, it does not store state in a database, its an SPA application which uses Redoc directly.
+
+
+
+## DEV notes:
+
 This project is bootstrapped by [aurelia-cli](https://github.com/aurelia/cli).
 
 For more information, go to https://aurelia.io/docs/cli/webpack
