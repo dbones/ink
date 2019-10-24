@@ -1,14 +1,27 @@
-# `ink`
+## ![Ink](https://raw.githubusercontent.com/dbones/ink/blob/master/images/bitmap.png "Ink")
+
 
 with multiple services, each of them exposing their own OpenApi 2/3 docs, we need a single place to bring them together.
 
 consider this a catalog of the services you want to expose.
 
+Features
+
+- simple configuration
+- reads all meta information from OpenApi 2/3 docs
+- uses Redoc to show OpenApi 2/3 docs
+
+known issues:
+
+- Redoc anchors
+- Linking directly to the docs
+
+feel free to help out :)
+
+Demo Video:
 
 [![Ink](https://img.youtube.com/vi/whe4WfXx-ZI/0.jpg)](https://www.youtube.com/watch?v=whe4WfXx-ZI)
 
-
-note: this is a very simple solution, it does not store state in a database, its an SPA application which uses Redoc directly.
 
 
 
