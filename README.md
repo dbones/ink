@@ -1,4 +1,4 @@
-## ![Ink](https://raw.githubusercontent.com/dbones/ink/blob/master/images/bitmap.png "Ink")
+## ![Ink](https://raw.githubusercontent.com/dbones/ink/master/images/bitmap.png "Ink")
 
 
 with multiple services, each of them exposing their own OpenApi 2/3 docs, we need a single place to bring them together.
