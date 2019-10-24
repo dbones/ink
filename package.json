@@ -6,7 +6,7 @@
     "type": "???",
     "url": "???"
   },
-  "license": "MIT",
+  "license": "Apache 2.0",
   "dependencies": {
     "@types/js-yaml": "^3.12.1",
     "@types/materialize-css": "^1.0.6",
