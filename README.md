@@ -1,24 +1,26 @@
 ## ![Ink](https://raw.githubusercontent.com/dbones/ink/master/images/bitmap.png "Ink")
 
+# Ink => OpenApi Docs for Micro-services
 
-with multiple services, each of them exposing their own OpenApi 2/3 docs, we need a single place to bring them together.
+With multiple services, each of them exposing their own OpenApi 2/3 docs, we need a single place to bring them together.
 
-consider this a catalog of the services you want to expose.
+Consider this a catalog of the services you want to expose.
 
-Features
+## Features
 
-- simple configuration
-- reads all meta information from OpenApi 2/3 docs
-- uses Redoc to show OpenApi 2/3 docs
+- Simple configuration.
+- Reads all meta information from OpenApi 2/3 docs.
+- Uses Redoc to show OpenApi 2/3 docs.
+- Api Gateway Agnostic.
 
-known issues:
+## known issues:
 
-- Redoc anchors
-- Linking directly to the docs
+- Redoc anchors.
+- Linking directly to the docs.
 
 feel free to help out :)
 
-Demo Video:
+## Demo Video:
 
 [![Ink](https://img.youtube.com/vi/whe4WfXx-ZI/0.jpg)](https://www.youtube.com/watch?v=whe4WfXx-ZI)
 
